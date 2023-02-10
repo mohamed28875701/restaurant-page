@@ -31,12 +31,23 @@ function setupHeader(){
     header.appendChild(wrapper);
     return header;
 }
+function setupFooter(){
+    const footer=document.createElement("div");
+    footer.textContent="Made by mohamed28875701 on github";
+    footer.classList.add("footer");
+    return footer;
+}
 function setup(){
     const content=document.getElementById("content");
     const body=document.getElementById("body");
+    
+    
     body.classList.add("body");
     content.classList.add("content");
     
-    let div=setupHeader();
-    content.appendChild(div);
+    let header=setupHeader();
+    let footer=setupFooter();
+    content.appendChild(header);
+    content.appendChild(footer);
+    
 }
