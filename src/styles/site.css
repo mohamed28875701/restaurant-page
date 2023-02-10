@@ -35,4 +35,19 @@
     display: flex;
     gap: 14px;
 }
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px 0px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+    background-color: rgb(10,10,10,.8);
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    width: 100%;
+
+}
 
