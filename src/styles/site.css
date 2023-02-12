@@ -100,6 +100,9 @@
 #item > div{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.btns:hover{
+    cursor: pointer;
+}
 #contact{
     position: absolute;
     top:50%;
