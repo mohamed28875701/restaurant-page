@@ -6,6 +6,7 @@ function setupHome(){
     welcome.setAttribute("id","headline");
     welcome.textContent="Welcome To Breadington";
     const imgPlaceholder=document.createElement("div");
+    home.setAttribute("data-status","active");
     imgPlaceholder.setAttribute("id","img");
     imgPlaceholder.classList.add("img");
     const desc=document.createElement("p");
