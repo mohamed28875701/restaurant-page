@@ -1,7 +1,7 @@
 export default setupHome;
 function setupHome(){
     const home=document.createElement("div");
-    home.setAttribute("id","homediv");
+    home.setAttribute("id","home");
     const welcome=document.createElement("h2");
     welcome.setAttribute("id","headline");
     welcome.textContent="Welcome To Breadington";
